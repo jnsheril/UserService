@@ -1,2 +1,12 @@
-package com.scaler.userservice.dtos;public class LogoutResponseDto {
+package com.scaler.userservice.dtos;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+
+public class LogoutResponseDto {
+    private ResponseStatus responseStatus;
+
 }

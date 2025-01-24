@@ -1,2 +1,7 @@
-package com.scaler.userservice.dtos;public class ResponseStatus {
+package com.scaler.userservice.dtos;
+
+public enum ResponseStatus {
+    SUCCESS,
+    FAILURE
+
 }
